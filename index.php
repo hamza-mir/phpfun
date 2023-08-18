@@ -14,3 +14,5 @@ $age = 29;
 $age += 1;
 
 echo $age;
+echo "<br/>";
+var_dump(29);
