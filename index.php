@@ -13,5 +13,7 @@ $age += 1;
 echo $age;
 echo "<br/>";
 
-$data = null;
-var_dump($data);
+$data = null; // null dtype
+
+$isLoggedIn = true;
+var_dump($isLoggedIn);
