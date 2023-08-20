@@ -19,6 +19,11 @@ $isLoggedIn = true; // bool dtype
 
 $floatNumber = 50.4;
 $integerNumber = 5_000;
-var_dump($floatNumber);
 echo "<br/>";
-var_dump($integerNumber);
+
+
+$name = 'Hamza';
+$welcome = "welcome {$name}";
+var_dump($welcome);
+$welcome[0] = 'W';
+var_dump($welcome);
