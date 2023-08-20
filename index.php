@@ -81,3 +81,10 @@ This is also a comment
 // var_dump((array) 1.353);      // -> [1.353]
 // var_dump((array) "John");     // -> ["John"]
 // var_dump((array) null);       // -> []
+
+const FULL_NAME = 'John Smith';
+// var_dump("Hello, my name is " . FULL_NAME);
+
+$message = "Hello, My name is ";
+$message .= FULL_NAME;
+var_dump($message);
