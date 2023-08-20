@@ -19,11 +19,13 @@ $isLoggedIn = true; // bool dtype
 
 $floatNumber = 50.4;
 $integerNumber = 5_000;
-echo "<br/>";
-
 
 $name = 'Hamza';
 $welcome = "welcome {$name}";
-var_dump($welcome);
 $welcome[0] = 'W';
-var_dump($welcome);
+
+$arrayExample = ['Salad', 'Burger', 'Pizza'];
+$arrayExample[1] = 'Chicken';
+$arrayExample[] = 'Soup';
+
+var_dump($arrayExample);
