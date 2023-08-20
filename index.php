@@ -28,4 +28,9 @@ $arrayExample = ['Salad', 'Burger', 'Pizza'];
 $arrayExample[1] = 'Chicken';
 $arrayExample[] = 'Soup';
 
+$arrayExample = ['john' => 'Salad','jane' => 'Burger','sam' => 'Pizza'];
+$arrayExample['jane'] = 'Chicken';
+$arrayExample['bob'] = 'Soup';
+
+
 var_dump($arrayExample);
