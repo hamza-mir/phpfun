@@ -1,7 +1,8 @@
 <?php
 
+declare(strict_types=1);
 
-function getStatus($paymentStatus) {
+function getStatus(string $paymentStatus): ?string {
 	echo $paymentStatus;
 	return $paymentStatus;
 }
