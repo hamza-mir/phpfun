@@ -1,11 +1,11 @@
 <?php
 
-$number = 3;
 
-if ($number === 1) {
-	echo "Same";
-} else if ($number === 2) {
-	echo 2;
-} else {
-	echo "Not same";
+function getStatus($paymentStatus) {
+	echo $paymentStatus;
+	return $paymentStatus;
 }
+
+$paymentStatus = 'Accepted';
+$get = getStatus($paymentStatus);
+echo "</br> $get";
