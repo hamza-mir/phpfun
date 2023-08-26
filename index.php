@@ -10,3 +10,4 @@ function getStatus(string $paymentStatus): ?string {
 $paymentStatus = 'Accepted';
 $get = getStatus($paymentStatus);
 echo "</br> $get";
+echo "test";
